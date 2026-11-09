@@ -1,22 +1,45 @@
+package org.example;
+
 import java.util.Scanner;
 
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        System.out.println("Bulundugunuz kat: ");
+        Scanner giris = new Scanner(System.in);
+        int kat = giris.nextInt();
+        System.out.println("Gideceginiz kat: ");
+        int gidilen = giris.nextInt();
+        if (kat < 1 || kat > 10 || gidilen < 1 || gidilen > 10 ) {
 
-        // TODO: 1. Kullanıcıdan mevcut katı ve hedef katı alın
+            System.out.println("Gecersiz veri tespit edilmistir sistem kendini 5 saniye icinde imha edecektir");
+            System.out.println("5");
+            System.out.println("4");
+            System.out.println("3");
+            System.out.println("2");
+            System.out.println("1");
+            System.out.println("Bommmmmmmm");
+        } else {
+            if (gidilen == kat){
+                System.out.println("Ayni kattasiniz");
+            }else {
+                if (gidilen > kat) {
+                    System.out.println("Yukari dogru gidilecektir");
+                    int cikilan_kat= gidilen-kat;
+                    System.out.println(cikilan_kat + " kat cikilmistir");
+                }else{
+                    System.out.println("Asagi dogru gidilecektir");
+                    int inilen_kat= kat-gidilen;
+                    System.out.println(inilen_kat + " kat inmistir");
+                }
+            }
+        }
 
-        // TODO: 2. Girdileri kontrol edin (1-10 arası olmalı)
 
-        // TODO: 3. Hareket yönüne karar verin
 
-        // TODO: 4. Hareket mesafesini hesaplayın
 
-        // TODO: 5. Sonucu ekrana yazdırın
 
-        // TODO (Opsiyonel): Geçilen katları sırasıyla yazdırın
 
-        scanner.close();
     }
 }
