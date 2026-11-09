@@ -29,7 +29,7 @@ Klasik asansor problemi bize if cokca kullandiran ve bassit islem gerektiren 2 v
 ## 4. Akış Şeması
 
 ![Akış Şeması](<img width="1182" height="1034" alt="Screenshot 2026-11-09 182351" src="https://github.com/user-attachments/assets/193190b3-d360-4768-bf64-e82b0fba9a19" />
-)
+) {yukledim ama nedense tikladigimda acilmiyor}
 
 ## 5. Test Sonuçları
 
