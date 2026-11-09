@@ -21,9 +21,10 @@ Klasik asansor problemi bize if cokca kullandiran ve bassit islem gerektiren 2 v
 ## 3. Sözde Kod (Pseudocode)
 
 ```
-1.
-2.
-3.
+1.kati gir
+2.gidilecek kati gir
+3.hesaplamalari yap
+4.sonucu goster
 ```
 
 ## 4. Akış Şeması
